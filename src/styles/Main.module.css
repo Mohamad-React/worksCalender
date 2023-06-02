@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid rgb(209, 204, 204);
+    border-radius: 2px;
+    width: 600px;
+    margin: 55px auto;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+.topwirte {
+    border: none;
+    background-color: #6495ED;
+    margin: 5px auto;
+    color: #FFFFFF;
+    width: 555px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.topwirte h1 {
+    padding: 10px;
+    font-size: 20px;
+
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.container2 input {
+    margin: 4px 48px;
+    padding: 4px;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border: 1px solid silver;
+}
+.container2 input::placeholder{
+    padding: 2px;
+}
+
+.container2 button {
+    margin-right: 22px;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #138D75	;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+}
+
+.keinedinge {
+    border: 1px solid silver;
+    background: #ec3f2c;
+    color: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    padding: 4px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.container2 h4 {
+    color: red;
+}
